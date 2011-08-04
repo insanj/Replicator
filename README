@@ -1,0 +1,16 @@
+Replicator - The Elegant and Spontaneous Generation and Replication Plugin
+Version: 1.4 ["TANGENT"]
+CraftBukkit Version: #953
+
+Welcome to a new era of shape creation! Using this plugin, any OP, or user with specific nodes, can create spontaneous figures out of his/her favorite block! Made a sphere of glowstone, a cage of sand, or even your own shape and block! Being my first plugin, I plan on keeping this up to date, and making sure that everything works out.
+
+All commands have specific nodes for the Permissions plugin, but can be OP-only if the Permissions plugin is not found.
+
+The current release of the plugin has four main features:
+Create diamonds that are five blocks high, on command! Then, undo in a second!
+Create cages that are five blocks in volume, on command! Then, undo in a second!
+Generate elegant spheres on command. YOU choose the radius and block! As with the others, you can undo this command instantly! Note: Spheres are created using a complicated mathematical algorithm, and because Minecraft is composed of blocks, the smaller the sphere, the less it will look like a sphere. However, in comparison with WorldEdit-like plugins, where the spheres are comprised of layers of circles, the sphere itself if more genuine and elegant.
+Replicate your own design! When this plugin is enabled, a folder in your plugins directory will be made. Store text documents under the specified format to create YOUR OWN Replicator designs! Think your's is a winner? Post it here and have it official added! More info on this awesome feature at the bottom!
+Also, if you ever have trouble, anyone can type in /replicator in-game for help and a listing of all available commands! Need something more? Type /replicator help for a brief summary!
+
+http://forums.bukkit.org/threads/edit-misc-the-replicator-v1-4-elegantly-generate-and-replicator-designs-shapes-953.18251/
