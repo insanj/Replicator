@@ -1,0 +1,72 @@
+name: Replicator
+version: 1.4 ["TANGENT"]
+author: insanj
+main: me.insanj.replicator.replicator
+description: Create, destroy, be stupid.
+website: http://www.insanj.com/replicator
+build: CraftBukkit #860
+
+commands:
+  replicator:
+    #Permissions is only for the disable command, the rest is useable by anyone.
+    permissions: replicator.disable
+    description: Lists available arguments for the plugin, or disables.
+    usage: |
+          /<command>
+          /<command> disable
+          /<commnad> help
+
+  replicator diamond:
+    description: Creates a beautiful diamond out of a material (wood by default).
+    permissions: replicator.diamond
+    usage: |
+          /<command>
+          /<command> [item id#]
+          /<command> undo
+
+  rd:
+    description: Quick way to create a diamond.
+    permissions: replicator.diamond
+    usage: |
+          /<command>
+          /<command> [item id]
+          /<command> undo
+
+  replicator cage:
+    description: Creates a cage of an item id or class.
+    permissions: replicator.cage
+    usage: |
+          /<command>
+          /<command> [item id]
+          /<command> undo
+
+  rc:
+    description: Quick way to create a cage.
+    permissions: replicator.cage
+    usage: |
+          /<command>
+          /<command> [item id]
+          /<command> undo
+
+  replicator sphere:
+    description: Create the most incredible sphere.
+    permissions: replicator.sphere
+    usage: |
+          /<command> [item id] [radius]
+          /<command> undo
+
+  rs:
+    description: Quick way to create a sphere.
+    permissions: replicator.sphere
+    usage: |
+          /<command> [item id] [radius]
+          /<command> undo
+
+  replicator read:
+    permissions: replicator.read
+    description: Create your own objects! (More info in changelog)
+    usage: |
+          /<command> [file_name_in_current_directory.txt]
+          /<command> [file_name_in_current_directory.txt] undo
+
+
